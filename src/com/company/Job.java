@@ -1,23 +1,18 @@
 package com.company;
 
-public abstract class Job {
+public class Job {
+
+    enum jobType{
+        Programmer,
+        Teacher,
+        Driver;
+    }
     int bonus;
     float salary;
+    jobType jobType;
 
-    public Job(int bonus, float salary){
-        this.bonus = bonus;
-        this.salary = salary;
-    }
-
-    public float getSalary() {
-        return salary;
-    }
-
-    public int getBonus(int bonus) {
-        return bonus;
-    }
 
     public String getInfo(){
-        return "";
-    };
+        return jobType+"'s salary is "+salary+" and bonus is "+bonus;
+    }
 }
