@@ -3,7 +3,7 @@ package com.company;
 public class Job {
     int bonus;
     float salary;
-    JobType.JobTypes jobType;
+    JobType jobType;
 
     public Job(int bonus, float salary) {
          this.salary = salary;
@@ -11,6 +11,6 @@ public class Job {
     }
 
     public String getInfo(){
-        return jobType +" salary is "+salary+" and bonus is "+bonus;
+        return jobType.value +"´s salary is "+salary+" and bonus is "+bonus;
     }
 }

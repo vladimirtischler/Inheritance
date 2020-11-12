@@ -4,6 +4,6 @@ public class Teacher extends Job {
 
     public Teacher(int bonus, float salary){
         super(bonus,salary);
-        this.jobType = JobType.JobTypes.TEACHER;
+        this.jobType = JobType.TEACHER;
     }
 }
