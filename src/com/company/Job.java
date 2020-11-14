@@ -12,6 +12,7 @@ public class Job {
     }
 
     public String getInfo(){
-        return jobType.value +"´s salary is "+salary+" and bonus is "+bonus;
+        return jobType.value +"´s salary is "+salary+" and bonus is "+bonus+".";
     }
+
 }
