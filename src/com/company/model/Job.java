@@ -1,4 +1,4 @@
-package com.company;
+package com.company.model;
 
 public class Job {
     int bonus;
@@ -15,4 +15,11 @@ public class Job {
         return jobType.value +"´s salary is "+salary+" and bonus is "+bonus+".";
     }
 
+    public int getBonus() {
+        return bonus;
+    }
+
+    public float getSalary() {
+        return salary;
+    }
 }

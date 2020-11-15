@@ -1,4 +1,7 @@
-package com.company;
+package com.company.model;
+
+import com.company.model.Job;
+import com.company.model.JobType;
 
 public class Programmer extends Job {
     public Programmer(int bonus, float salary, JobType jobType) {
