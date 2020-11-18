@@ -8,9 +8,9 @@ import java.util.List;
 public class Main{
 
     public static void main(String[] args) {
-        Teacher teacher = new Teacher(300,900, JobType.TEACHER);
-        Programmer programmer = new Programmer(200,1700,JobType.PROGRAMMER);
-        Driver driver = new Driver(300,1000,JobType.DRIVER);
+        Teacher teacher = new Teacher(300,900);
+        Programmer programmer = new Programmer(200,1700);
+        Driver driver = new Driver(300,1000);
         EmployeeServiceImpl employeeService = new EmployeeServiceImpl();
         List<Job> people = Arrays.asList(teacher,programmer,driver);
 

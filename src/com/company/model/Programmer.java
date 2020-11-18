@@ -4,8 +4,8 @@ import com.company.model.Job;
 import com.company.model.JobType;
 
 public class Programmer extends Job {
-    public Programmer(int bonus, float salary, JobType jobType) {
-        super(bonus, salary, jobType);
+    public Programmer(int bonus, float salary ) {
+        super(bonus, salary, JobType.PROGRAMMER);
     }
 
     @Override

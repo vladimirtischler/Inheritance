@@ -5,7 +5,7 @@ import com.company.model.JobType;
 
 public class Teacher extends Job {
 
-    public Teacher(int bonus, float salary, JobType jobType){
-        super(bonus,salary,jobType);
+    public Teacher(int bonus, float salary){
+        super(bonus,salary,JobType.TEACHER);
     }
 }
